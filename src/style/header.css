@@ -1,0 +1,36 @@
+header{ 
+    position: fixed;  
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.04);
+    font-size: 20px;
+    height: 70px;
+    top:0;
+}
+header .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.logo img{
+    width: auto;
+    height: 40px;
+}
+
+.menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.user{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme img{
+    width: 25px;
+    height: auto;
+}

@@ -1,0 +1,23 @@
+#bubbles{
+    
+    }
+
+#bubbles .content{  
+    flex-direction: column;    
+}
+
+#bubbles .content h2{
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+    line-height: 40px;
+}
+#bubbles .content h3{    
+    font-size: 20px;    
+    line-height: 40px;
+}
+#bubbles .content p{    
+    font-size: 18px;   
+   text-align: justify;
+}
+
