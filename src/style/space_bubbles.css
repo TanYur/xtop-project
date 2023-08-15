@@ -1,0 +1,47 @@
+.bubbles-page .wrapper{
+    background-color: var(--bg-block)
+}
+.bubbles-page .content{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.bubbles-page h1{
+    text-align: center;
+    font-size: 40px;
+}
+.bubbles-page h2{
+    font-size: 25px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.bubbles-page h3{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.bubbles-page p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.bubbles-page ul{
+    margin: 20px 0;
+}
+
+.bubbles-page ul li{
+    margin: 0 0 0 30px;
+    line-height: 30px;
+}
+
+.bubbles-page footer{
+    position: relative;
+}
+
+.bubbles-page .btn-back {
+    position: absolute;
+    bottom: 43px;
+    left: 40px;
+}

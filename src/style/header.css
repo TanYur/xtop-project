@@ -34,3 +34,7 @@ header .left-side {
     width: 25px;
     height: auto;
 }
+
+.sticky {   
+    display: none;
+}
