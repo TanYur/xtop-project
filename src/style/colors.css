@@ -3,5 +3,8 @@
     --text: #3d3d35;
     --btn: #ebf4fe;
     --bg-block:#f6f9fc;
+    --logo-color: #bddff2;
+    --title-shadow: 0 3px 8px rgba(0, 0, 0, .4);
+    --text-shadow: 0 3px 8px rgba(0, 0, 0, .3);
 }
 

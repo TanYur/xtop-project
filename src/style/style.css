@@ -41,6 +41,15 @@ footer {
 
 .main-title {
     text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    text-shadow: var(--title-shadow);
+}
+.main-title .logo-o{
+    color: var(--logo-color);
+}
+.main-title .logo-bio{
+    color: var(--marks);
 }
 
 .block {
@@ -60,8 +69,8 @@ footer {
 .title {
     font-size: 25px;
     font-weight: 500;
-    margin-top: 40px;
-    text-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    margin-top: 40px;   
+    text-shadow: var(--text-shadow);
 }
 
 .content {
@@ -99,9 +108,7 @@ footer {
 .btn:focus-visible{
     outline: none !important;
 }
-.btn:hover {
-    /* border-top: 1px solid rgba(255, 255, 255, 0.05);
-    border-left: 1px solid rgba(255, 255, 255, 0.03); */
+.btn:hover {    
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1), 0 2px 5px rgba(0, 0, 0, .07), 0 2px 5px rgba(0, 0, 0, .05);
     background-color: rgba(100, 170, 255, 0.2);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);

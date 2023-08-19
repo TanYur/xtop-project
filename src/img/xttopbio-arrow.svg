@@ -1,0 +1,24 @@
+<svg id="Слой_7" data-name="Слой 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #89bd26;
+        stroke-linecap: round;
+        stroke-width: 3.76px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <polyline class="cls-1" points="8.52 22.79 20.05 11.36 31.59 22.79"/>
+    <ellipse class="cls-2" cx="20" cy="20" rx="16.55" ry="16.39"/>
+  </g>
+</svg>
