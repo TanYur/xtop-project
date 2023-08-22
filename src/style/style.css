@@ -96,13 +96,14 @@ footer {
 }
 
 .bookmark h3.active {    
-    background-color: rgba(0, 191, 255, 0.25);
-   
+    background-color: rgba(0, 191, 255, 0.25);   
 }
 
 .content {
     width: 100%;
     max-width: 100%;
+    height: auto;
+    min-height: 200px;
     padding: 40px 20px;
     line-height: 25px;
     letter-spacing: .6px;
