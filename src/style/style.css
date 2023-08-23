@@ -3,7 +3,7 @@
 @import 'bubbles.css';
 @import 'mirror.css';
 @import 'footer.css';
-@import 'space_bubbles.css';
+@import 'sub-page.css';
 
 
 * {
@@ -164,3 +164,4 @@ footer {
     background-color: rgba(100, 170, 255, 0.2);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
+

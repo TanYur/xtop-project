@@ -40,26 +40,54 @@
 }
 
 @media(max-width: 767px) {
-    header{
-        padding: 0 10px;
+    header {
+        padding: 0 20px;
     }
-    .left-side{
-        width: 70%;
+
+    header .left-side {
+        position: relative;
+        width: 40px;
+        height: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
-     .user{
-        width: 30%;
+
+    .user {
+        width: 20%;
     }
+    .line{
+        width: 35px;
+        height: 2px;
+        background-color: var(--text);
+       
+    }
+    .logo img {
+        height: 50px;
+    }
+
     .menu {
         display: none;
     }
+
+    .menu-mobile {
+        position: absolute;
+        top: 47px;
+        left: -18px;
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 191, 255, 0.25);   
+    }
+
     .chapter {
         margin: 45px auto 0;
         max-width: 400px;
-    }    
+    }
 
-    .bookmark h3 {       
+    .bookmark h3 {
         left: 0;
-        bottom: 0;       
+        bottom: 0;
         width: 50px;
         min-width: 50px;
         height: 120px;
@@ -68,25 +96,96 @@
         overflow: hidden;
         font-size: 0;
     }
+
+    .content h3 {
+       font-size: 24px;
+       color: var(--logo-color);
+       text-shadow: 0 0px 9px rgba(0, 0, 0, 0.1);
+    }
     .content h4 {
         margin-top: 20px;
+    }
+
+    .sub-page .title {
+        line-height: 45px;
+        font-size: 30px;
     }  
+
+    .sub-page h2 {
+        line-height: 32px;
+        font-size: 18px;
+        letter-spacing: .4px;
+        text-align: justify;
+    }
+    .sub-page h3 {
+        margin: 30px 0;
+        font-size: 16px;
+    }
+
+    .sub-page p{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .sub-page .content .first{
+        margin-top: 0;        
+    }
+
+    .sub-page .title {
+        margin-top: 0;
+    }
+    .sub-page .contakt {       
+        width: 270px;       
+    }
+
+    .linkedin,
+    .facebook,
+    .meil {
+        font-size: 20px;
+        font-weight: 600;        
+        width: 30px;
+        height: 30px; 
+    }
+    .meil {
+        position: relative;
+        font-size: 11px;       
+        font-weight: 600;
+        border-radius: 2px;
+        width: 45px;
+        height: 26px;
+    }
+
+    .sub-page .btn-back{
+        position: inherit;
+    }
+    .sub-page .btn-back {
+        width: 55px;
+        height: 28px;
+        margin-top: 0;
+        font-size: 12px;
+    }
 }
+
 @media(max-width: 400px) {
+    .user {
+        width: 30%;
+    }
     .chapter {
         margin: 45px auto 0;
         max-width: 270px;
     }
-    .content h4{
+
+    .content h4 {
         font-size: 18px;
         line-height: 25px;
     }
-    .content h5{
+
+    .content h5 {
         font-size: 16px;
         line-height: 25px;
     }
-    .content p{
+
+    .content p {
         font-size: 16px;
-        
+
     }
 }

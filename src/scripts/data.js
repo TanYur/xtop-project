@@ -29,7 +29,7 @@ const data = {
         <p>Body regeneration content...</p>
         <button class="btn"><a href="src/articles/body_regeneration.html">view more &#8594;</a></button>
         `       
-    },
+    }, 
     'ecology':{
         'Cleaning the surface of the water from the oil film':
         `<h4>Cleaning the surface of the water from the oil film title</h4>
