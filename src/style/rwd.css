@@ -43,8 +43,11 @@
     header{
         padding: 0 10px;
     }
-    .left-side, .user{
-        width: 50%;
+    .left-side{
+        width: 70%;
+    }
+     .user{
+        width: 30%;
     }
     .menu {
         display: none;
@@ -64,6 +67,9 @@
         padding: 2px 20px 2px 10px;
         overflow: hidden;
         font-size: 0;
+    }
+    .content h4 {
+        margin-top: 20px;
     }  
 }
 @media(max-width: 400px) {
