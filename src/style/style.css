@@ -1,10 +1,11 @@
-@import 'colors.css';
+@import 'vars.css';
 @import 'theme-light.css';
 @import 'header.css';
 @import 'bubbles.css';
 @import 'mirror.css';
 @import 'footer.css';
 @import 'space_bubbles.css';
+
 
 * {
     margin: 0;
@@ -17,6 +18,7 @@
 body {
     min-height: 100vh;
     height: auto;
+   
 }
 
 a {
@@ -30,6 +32,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+     background-color: white; 
 }
 
 .wrapper {
@@ -93,7 +96,9 @@ footer {
     box-shadow: -2px -2px 5px rgba(0, 0, 0, .1);
     position: relative;
     margin-right: 10px;
+    font-weight: 500;
 }
+
 
 .bookmark h3.active {    
     background-color: rgba(0, 191, 255, 0.25);   
@@ -118,7 +123,7 @@ footer {
     text-align: left;
     font-size: 24px;
     margin: 0;
-    line-height: 40px;
+    line-height: 35px;
 }
 
  .content h5 {
@@ -130,7 +135,7 @@ footer {
  .content p {
     font-size: 18px;
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .btn {
