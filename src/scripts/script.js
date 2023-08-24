@@ -17,30 +17,19 @@ function scrolldarmowa() {
 
 //bookmarks
 //add title for mobile
-//change logo place
+
 
 const bookmark = document.querySelectorAll('.bookmark h3');
 const bookmarksActive = document.querySelectorAll('.bookmark h3.active');
 const screenWidth = window.screen.width;
 const contents = document.querySelectorAll('.content');
-const logo = document.querySelector('.logo');
-const logoTitle = document.querySelector('.main-title h1')
-const NewLogo = logo.outerHTML;
-
-
 
 
 if (screenWidth < 767) {
     contents.forEach((i, index) => {
         i.innerHTML = '<h3>' + bookmarksActive[index].innerText + '</h3>' + i.innerHTML
-    });
-    
-    let line = '<div class="line"></div><div class="line"></div><div class="line"></div>';
-
-    logoTitle.insertAdjacentHTML('beforeBegin', NewLogo);
-    logo.insertAdjacentHTML('beforeBegin', line);
-    logo.remove();
-    logoTitle.remove();
+    });   
+  
 }
 
 bookmark.forEach(i => {
@@ -67,21 +56,8 @@ bookmark.forEach(i => {
     })
 });
 
-//menu
-const menuMobile = document.querySelector('.left-side');
-// menuMobile.classList = 'someclass';
 
-menuMobile.addEventListener('click', e => {
-    let menuMobileList = document.createElement('div');
-    
-    menuMobileList.className = "menu-mobile";
-    menuMobile.append(menuMobileList);
-    console.log(menuMobileList);
-    let menuContent = 
-    `<p><a href="#bubbles">Space</a></p>
-    <p><a href="#medicine">Medicine</a></p>
-    <p><a href="#ecology">Ecology</a></p>
-    <p><a href="#mirror">Technology</a></p>`;
-    menuMobileList.insertAdjacentHTML('beforeBegin', menuContent);
-});
+
+
+
 
