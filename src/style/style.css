@@ -56,6 +56,10 @@ footer {
     padding: 20px 0;
 }
 
+.sub-page .block{
+    margin: 0px auto 0 auto;
+}
+
 
 .title,
 .subtitle {
