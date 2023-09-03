@@ -18,9 +18,10 @@ const data = {
         <button class="btn"><a href="src/articles/regenertion_of_body.html">view more &#8594;</a></button>
         ` ,        
         'Artificial vision':       
-        `<h4>Artificial vision title</h4>
-        <h5>Artificial vision subtitle</h5>
-        <p>Artificial vision content...</p>
+        `<h4>Artificial Vision.</h4>       
+        <p><span>Problem:</span> The challenge we aim to solve concerns individuals who have difficulty seeing
+        or are completely blind. Their limited vision affects their everyday lives, limiting their
+        independence and opportunities. Existing solutions don't offer a complete substitute...</p>
         <button class="btn"><a href="src/articles/artificial_vision.html">view more &#8594;</a></button>
         `,       
         'Body regeneration':       
