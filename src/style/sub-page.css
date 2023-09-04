@@ -4,6 +4,9 @@
 .sub-page .content{
     background-color: transparent;
     box-shadow: none;
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .sub-page h1{
