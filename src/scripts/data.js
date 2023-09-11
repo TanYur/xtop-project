@@ -8,6 +8,11 @@ const data = {
            experiments, our team came to the conclusion that at this stage of development,science remains
            at the same place in many areas of astronautics and astrophysics...</p>
            <button class="btn"><a href="src/articles/space_bubbles.html">view more &#8594;</a></button>
+           `,
+        'Project help':
+            `<h4>Dear friends and partners of the Space Bubbles project,</h4>                        
+            <p>We are reaching out to you with an important request for support of our innovative project, Space Bubbles, aimed at revolutionizing space technology. Our goal is to create the possibility of launching spacecraft without the use of ...</p>
+            <button class="btn"><a href="src/articles/project-help.html">view more &#8594;</a></button>
            `
     },
     'medicine': {
