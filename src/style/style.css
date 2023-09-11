@@ -106,6 +106,9 @@ footer {
 .bookmark h3.active {    
     background-color: rgba(0, 191, 255, 0.25);   
 }
+.bookmark h3.project-help {    
+    background-color: rgba(255, 2, 137, 0.35); 
+}
 
 .content {
     width: 100%;

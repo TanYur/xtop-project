@@ -7,4 +7,13 @@ bntBackSubPage.remove();
 const newbtn = bntBackSubPage.outerHTML;
 linkedinBtnSubPage.insertAdjacentHTML('beforeBegin', newbtn);
 
+function myFunction() {   
+    var copyText = document.querySelector(".copy-number"); 
+    copyText.select();
+    document.execCommand("copy");
+    alert('copy');
+  }
+
+  document.addEventListener('click', myFunction);
+ 
 
