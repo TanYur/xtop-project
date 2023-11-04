@@ -1,0 +1,41 @@
+.copy-number {
+    border: none;
+    outline: none; 
+    background-color: transparent;
+    color: var(--bg-block);
+    font-size: 1px;
+    width: 1px;
+    height: 1px;
+}
+
+.project-help-page li p{
+    margin-top: 0;   
+    max-width: 100%;
+    word-wrap: break-word; 
+}
+
+.project-help-page  li .btn {
+    position: relative;
+    margin: 0 0 10px 10px;
+    width: auto;
+    padding: 0 10px;
+    
+}
+
+.project-help-page .btn-copy:hover::before {
+    position: absolute;
+    content: 'text copied';
+    text-align: center;
+    padding: 2px 5px;
+    min-width: 90px;
+    width: auto;
+    height: auto;
+    background-color: plum;
+    top: -20px;
+    border-radius: 3px;
+}
+
+
+@media(max-width: 767px) {
+    
+}
