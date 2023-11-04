@@ -31,9 +31,8 @@ const data = {
         <button class="btn"><a href="src/articles/artificial_vision.html">view more &#8594;</a></button>
         `,
         'Body regeneration':
-            `<h4>Body regeneration title</h4>
-        <h5>Body regeneration subtitle</h5>
-        <p>Body regeneration content...</p>
+            `<h4>Body regeneration</h4>
+            <p>Human life comprises seven stages of development, each lasting 12 years: childhood up to 12, adolescence up to 24, youth up to 36, maturity up to 42, pre-elderly stage up to 64, elderly stage up to 84, and deep...</p>
         <button class="btn"><a href="src/articles/body_regeneration.html">view more &#8594;</a></button>
         `
     },
