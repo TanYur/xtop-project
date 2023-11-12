@@ -17,7 +17,8 @@
 body {
     min-height: 100vh;
     height: auto;
-   
+    position: relative;
+    z-index: 0;
 }
 
 a {
@@ -31,7 +32,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-     background-color: white; 
+    background-color: white;
 }
 
 .wrapper {
@@ -56,7 +57,7 @@ footer {
     padding: 20px 0;
 }
 
-.sub-page .block{
+.sub-page .block {
     margin: 0px auto 0 auto;
 }
 
@@ -103,11 +104,12 @@ footer {
 }
 
 
-.bookmark h3.active {    
-    background-color: rgba(0, 191, 255, 0.25);   
+.bookmark h3.active {
+    background-color: rgba(0, 191, 255, 0.25);
 }
-.bookmark h3.project-help {    
-    background-color: rgba(255, 2, 137, 0.35); 
+
+.bookmark h3.project-help {
+    background-color: rgba(255, 2, 137, 0.35);
 }
 
 .content {
@@ -125,25 +127,26 @@ footer {
     flex-direction: column;
 }
 
- .content h4 {
+.content h4 {
     text-align: left;
     font-size: 24px;
     margin: 0;
     line-height: 35px;
 }
 
- .content h5 {
+.content h5 {
     font-size: 20px;
     line-height: 40px;
     margin-top: 10px;
 }
 
- .content p {
+.content p {
     font-size: 18px;
     text-align: justify;
     margin-top: 30px;
 }
-.content p span{
+
+.content p span {
     font-weight: 600;
 }
 
@@ -175,3 +178,6 @@ footer {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+.br-mob {
+    display: none;
+}

@@ -1,5 +1,7 @@
 .sub-page .wrapper{
-    background-color: var(--bg-block)
+    position: relative;
+    background-color: var(--bg-block);
+    z-index: 0;
 }
 .sub-page .content{
     background-color: transparent;

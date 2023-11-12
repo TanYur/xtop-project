@@ -36,8 +36,9 @@ bookmark.forEach(i => {
 
     i.addEventListener('click', e => {
         let elem = e.target;
+        // console.log(elem)
 
-        let text = elem.textContent
+        let text = elem.textContent;        
         let parentElem = elem.parentNode;
         let blockGrandElem = parentElem.parentNode.parentNode;
         let idBlockGrandElem = blockGrandElem.id;
@@ -47,7 +48,9 @@ bookmark.forEach(i => {
             elem.classList.add('active');
         };
 
+        console.log('text ' + text)
         const content = blockGrandElem.querySelector('.content');
+        // console.log(content)
         const textTitle = elem.innerText;
 
         if (screenWidth < 767) {

@@ -1,25 +1,27 @@
 .copy-number {
     border: none;
-    outline: none; 
+    outline: none;
     background-color: transparent;
     color: var(--bg-block);
     font-size: 1px;
     width: 1px;
     height: 1px;
+    overflow: hidden;
 }
 
-.project-help-page li p{
-    margin-top: 0;   
+.project-help-page li p {
+    margin-top: 0;
     max-width: 100%;
-    word-wrap: break-word; 
+    word-wrap: break-word;
 }
 
-.project-help-page  li .btn {
+.project-help-page li .btn {
+    display: inline-block;
     position: relative;
     margin: 0 0 10px 10px;
     width: auto;
     padding: 0 10px;
-    
+
 }
 
 .project-help-page .btn-copy:hover::before {
@@ -35,7 +37,59 @@
     border-radius: 3px;
 }
 
+.help-link {
+    color: var(--logo-color);
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+    transition: 0.6s all;
 
-@media(max-width: 767px) {
-    
 }
+
+.help-link:hover {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    text-decoration-line: underline;
+}
+
+.img-qr-code {
+    width: 30px;
+    height: auto;
+}
+
+.qr-code {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.content .qr-code span {
+    font-weight: normal;
+}
+
+.modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-left: 2px solid rgba(255, 255, 255, 0.4);
+    width: 95%;
+    height: 98%
+}
+
+
+@media(max-width: 767px) {}
