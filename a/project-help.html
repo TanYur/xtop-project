@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/xttopbio_favicon_02.png" type="image/x-icon">
-    <link rel="stylesheet" href="../style/style.css" />
-    <link rel="stylesheet" href="../style/rwd.css" />
-    <link rel="stylesheet" href="../style/project-help.css" />
+    <link rel="icon" href="../src/img/xttopbio_favicon_02.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/style/style.css" />
+    <link rel="stylesheet" href="../src/style/rwd.css" />
+    <link rel="stylesheet" href="../src/style/project-help.css" />
 
     <title>Space Bubbles</title>
 </head>
@@ -15,20 +15,18 @@
 <body class="project-help-page sub-page">
     <header id="darmowa">
         <div class="left-side">
-            <div class="logo"><a href="../../index.html"><img src="../img/logo_02.png" alt="xttopbio" /></a></div>
+            <div class="logo"><a href="../index.html"><img src="../src/img/logo_02.png" alt="xttopbio" /></a></div>
             <div class="menu">
-                <p><a href="../../index.html#bubbles">Space</a></p>
-                <p><a href="../../index.html#medicine">Medicine</a></p>
-                <p><a href="../../index.html#ecology">Ecology</a></p>
-                <p><a href="../../index.html#mirror">Technology</a></p>
+                <p><a href="../index.html#bubbles">Space</a></p>
+                <p><a href="../index.html#medicine">Medicine</a></p>
+                <p><a href="../index.html#ecology">Ecology</a></p>
+                <p><a href="../index.html#mirror">Technology</a></p>
             </div>
         </div>
-
         <div class="user">
             <div class="login">log in</div>
-            <div class="theme"><img src="../img/moon_black.png" /></div>
+            <div class="theme"><img src="../src/img/moon_black.png" /></div>
         </div>
-
     </header>
 
 
@@ -36,7 +34,7 @@
         <div class="block">
             <div class="content">
 
-                <h1 class="title">Project help</h1>                
+                <h1 class="title">Project help</h1>
                 <h2>Dear partners,
                 </h2>
 
@@ -70,7 +68,7 @@
                                 id="myInput">
                         </p>
 
-                        <p class="qr-code"><img src="../img/BTC.jpg" class="img-qr-code" alt="qr-code">
+                        <p class="qr-code"><img data-modal src="../src/img/BTC.jpg" class="img-qr-code" alt="qr-code">
                             <span> &nbsp; &nbsp;QR-code</span>
                         </p>
 
@@ -89,7 +87,7 @@
                                 id="myInput">
                         </p>
 
-                        <p class="qr-code"><img src="../img/ETH.jpg" class="img-qr-code" alt="qr-code">
+                        <p class="qr-code"><img data-modal src="../src/img/ETH.jpg" class="img-qr-code" alt="qr-code">
                             <span> &nbsp; &nbsp;QR-code</span>
                         </p>
 
@@ -107,7 +105,7 @@
                                 id="myInput">
                         </p>
 
-                        <p class="qr-code"><img src="../img/ETH.jpg" class="img-qr-code" alt="qr-code">
+                        <p class="qr-code"><img data-modal src="../src/img/ETH.jpg" class="img-qr-code" alt="qr-code">
                             <span> &nbsp; &nbsp;QR-code</span>
                         </p>
 
@@ -120,6 +118,11 @@
         </div>
     </div>
 
+    <div class="modal">
+        <div data-close class="modal__close">&times;</div>
+        <p></p>
+    </div>
+
     <footer>
         <div class="contakt">
             <div class="linkedin">in</div>
@@ -130,9 +133,11 @@
         <button class="btn btn-back"><a href="../../index.html#bubbles">&larr; back</a></button>
     </footer>
 
-    <script src="../scripts/sub-page.js"></script>
-    <script src="../scripts/header.js"></script>
-    <script src="../scripts/qr-code.js"></script>
+
+    <script src="../src/scripts/data.js"></script>
+    <script src="../src/scripts/sub-page.js"></script>
+    <script src="../src/scripts/header.js"></script>
+    <script src="../src/scripts/qr-code.js"></script>
 
 
 </body>

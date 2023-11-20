@@ -53,6 +53,7 @@
 .img-qr-code {
     width: 30px;
     height: auto;
+    cursor: pointer;
 }
 
 .qr-code {
@@ -65,7 +66,7 @@
     font-weight: normal;
 }
 
-.modal-wrapper {
+/*.modal-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,11 +77,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 .modal {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
+  /*  background: rgba(255, 255, 255, 0.2);
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3px);
@@ -88,8 +89,60 @@
     border-top: 2px solid rgba(255, 255, 255, 0.3);
     border-left: 2px solid rgba(255, 255, 255, 0.4);
     width: 95%;
-    height: 98%
+    height: 98%*/
 }
+
+.modal{
+    position:fixed;top:0;
+    left:0;
+    z-index:1050;
+    display:none;
+    width:98%;
+    height:98%;
+    overflow:hidden;
+    /*background-color:rgba(0,0,0,.3);*/
+     background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-left: 2px solid rgba(255, 255, 255, 0.4);
+    
+    align-items: center;
+    justify-content: center;
+    }
+
+.modal__close{
+    position:absolute;
+    top:8px;right:14px;
+    font-size:30px;
+    color:#000;
+    opacity:.5;
+    font-weight:700;
+    border:none;
+    background-color:transparent;
+    cursor:pointer
+    }
+
+    .modal img{
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .show{display: flex;}
+.hide{display: none;}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.1;}
+    to{opacity: 1;}
+}
+   
+
 
 
 @media(max-width: 767px) {}

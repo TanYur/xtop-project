@@ -1,26 +1,53 @@
-const qrImgs = document.querySelectorAll('.qr-code img');
-const doc = document.querySelector('.wrapper');
-const headerHelp = document.querySelector('header')
+const doc = document.querySelector('.wrapper'),
+    headerHelp = document.querySelector('header'),
+    showBtn = document.querySelectorAll('.qr-code');
 
+const modalTrigger = document.querySelectorAll('[data-modal]'),
+    modal = document.querySelector('.modal'),
+    modalCloeBtn = document.querySelector('[data-close]');
 
+function openModal() {
+    modal.classList.add('show');
+    modal.classList.remove('hide');
+    document.body.style.overflow = 'hidden';
+};
 
+function closeModal() {
+    let modalImg = modal.querySelector('img');
+    console.log(modalImg)
+    if (modalImg) {
+        modalImg.remove();
+    }
+    modal.classList.add('hide');
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+};
 
-qrImgs.forEach(i => {
-    i.addEventListener('mouseover', () => {
-        if (document.querySelector(".modal-wrapper") == null) {
-            let modalWrapper = document.createElement('div');
-            let modalWindow = document.createElement('div');
-            modalWrapper.className = "modal-wrapper";
-            modalWindow.className = "modal"
-            document.body.append(modalWrapper);
-            modalWrapper.append(modalWindow);
-            headerHelp.style.position = 'initial';
-        } 
+modalTrigger.forEach((btn, i) => {
+    btn.addEventListener('click', (e) => {
+        openModal();
+        let modaImg = document.querySelector('.modal p');
+        console.log(modaImg);
+        modaImg.innerHTML = imgQr[i];
+        console.log(modaImg);
     });
 });
 
-// qrImgs.forEach(i => {
-//     i.addEventListener('mouseout', (e) => {
-//         div.remove()
-//     });
-// });
+modal.addEventListener('click', (e) => {
+    if (e.target === modal || e.target.getAttribute('data-close') == '') {
+        closeModal();
+    }
+});
+
+
+document.addEventListener('keydown', (e) => {
+    if (e.code === 'Escape' && modal.classList.contains('show')) {
+        closeModal();
+    }
+});
+
+modal.addEventListener('click', (e) => {
+    if (e.target === modal || e.target.getAttribute('data-close') == '') {
+        closeModal();
+    }
+});
