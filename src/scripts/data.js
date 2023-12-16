@@ -38,8 +38,13 @@ const data = {
             `<h4>An Innovative Approach to Limb Regeneration</h4>
             <p>In the contemporary world, numerous companies are striving to develop organ printing technologies, but our research group opts for a unique approach. We propose a method that begins with printing a matrix framework, akin to a sponge, incorporating essential vascular...</p> 
         <button class="btn"><a href="a/3d_bioprinting.html">view more &#8594;</a></button>
-        `
-    },
+        `,
+        'Revolution in 3D Modeling': `
+        <h4>of the Face and Posture: Xttopbio Introduces Innovative Technology</h4>
+        <p>aimed at regenerating the human body at the cellular level, fostering mindfulness, and aiding in the internal engineering of oneself. To achieve this, we aim to utilize software in the format of a 3D virtual space...</p>
+        <button class="btn"><a href="a/3d_modeling_of_the_face.html">view more &#8594;</a></button>`,
+        
+        },
     'ecology': {
         'Сleaning the seas and oceans from oil and garbage':
             `<h5>Our idea for cleaning the surface of the seas from oil pollution could have been implemented as
@@ -54,18 +59,16 @@ const data = {
          experiments, our team came to the conclusion that at this stage of development,science remains
          at the same place in many areas of astronautics and astrophysics...</p>
          <button class="btn"><a href="a/artificial_lungs_planet.html">view more &#8594;</a></button>`,
-        'Wind generator on sails':
-            `<h4>...</h4>
-        <h5>...</h5>
-        <p>...</p>
+        'Sails in Wind Energy:':
+            `<h4>Revolutionizing Wind Turbine Optimization</h4>        
+        <p>Modern challenges in wind energy require innovative solutions to enhance efficiency and reduce the cost of energy production. One pioneering approach proposed by xttopbio is...</p>
         <button class="btn"><a href="a/wind_generator_on_sails.html">view more &#8594;</a></button>`
     },
     'mirror': {
         '3d mirror World':
-            `<h4>...</h4>
-        <h5>...</h5>
-        <p>...</p>
-        <button class="btn"><a href="a/3d_mirror_world.html">view more &#8594;</a></button>`
+            `<h4>Introduction:</h4>                        
+            <p>The book is dedicated to the creation of a three-dimensional mirrored world in virtual reality. It compiles ideas related to the implementation and inception of new...</p>
+            <button class="btn"><a href="a/3d_mirror_world.html">view more &#8594;</a></button>`
     },
     'project help': {
         'Project help':

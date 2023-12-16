@@ -28,6 +28,7 @@
 
     .bookmark h3 {
         font-size: 14px;
+        min-width:  100px;
     }
 
     .content h4 {
