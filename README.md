@@ -1,3 +1,3 @@
 # XttopBio
 
--[look it](https://tanyur.github.io/xttopbio/)
+-[look it](https://tanyur.github.io/xtop-project/)
