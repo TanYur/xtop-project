@@ -4,6 +4,7 @@
 @import 'mirror.css';
 @import 'footer.css';
 @import 'sub-page.css';
+@import 'news.css';
 
 
 * {
@@ -181,3 +182,6 @@ footer {
 .br-mob {
     display: none;
 }
+
+
+@import 'news.css';

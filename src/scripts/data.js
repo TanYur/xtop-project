@@ -71,7 +71,7 @@ const data = {
             <button class="btn"><a href="a/3d_mirror_world.html">view more &#8594;</a></button>`
     },
     'project help': {
-        'Project help':
+        'Сooperation, investments.':
             `<h4>Dear friends and partners of the Space Bubbles project,</h4>                        
         <p>We are reaching out to you with an important request for support of our innovative project, Space Bubbles, aimed at revolutionizing space technology. Our goal is to create the possibility of launching spacecraft without the use of ...</p>
         <button class="btn"><a href="a/project-help.html">view more &#8594;</a></button>

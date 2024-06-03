@@ -1,170 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="Tatsian Yurtsevich" content="xttopbio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./src/img/xttopbio_favicon_02.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <title>XttopBio</title>
-    <link rel="stylesheet" href="src/style/style.css" />
-    <link rel="stylesheet" href="src/style/rwd.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Tatsian Yurtsevich" content="xttopbio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="yandex-verification" content="225bea5cddf705a2" />
+        <meta name="description" content="xttopbio project Author: .N.S. Yutsevich">
+        <link rel="icon" href="./src/img/xttopbio_favicon_02.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <title>XttopBio</title>
+        <link rel="stylesheet" href="src/style/style.css" />
+        <link rel="stylesheet" href="src/style/rwd.css" />
 
-<body>
+    </head>
 
+    <body>
 
-    <header id="darmowa">
-        <div class="left-side">
-            <div class="logo"><img src="src/img/logo_02.png" alt="xttopbio"></div>
-            <div class="menu">
-                <p><a href="#bubbles">Space</a></p>
-                <p><a href="#medicine">Medicine</a></p>
-                <p><a href="#ecology">Ecology</a></p>
-                <p><a href="#mirror">Technology</a></p>
-            </div>
+        <!-- Messenger Плагин чата Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Плагин чата code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
         </div>
 
-        <div class="user">
-            <div class="login">log in</div>
-            <div class="theme"><img src="src/img/moon_black.png" /></div>
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "151702238031737");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v18.0'
+                });
+            };
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <header id="darmowa">
+            <div class="left-side">
+                <div class="logo"><img src="src/img/logo_02.png" alt="xttopbio"></div>
+                <div class="menu">
+                    <p><a href="#bubbles">Space</a></p>
+                    <p><a href="#medicine">Medicine</a></p>
+                    <p><a href="#ecology">Ecology</a></p>
+                    <p><a href="#mirror">Technology</a></p>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="login">log in</div>
+                <div class="theme"><img src="src/img/moon_black.png" /></div>
+            </div>
+
+        </header>
+
+        <div class="wrapper start-page">
+
+            <section class="main">
+                <div class="main-title">
+                    <h1>XttopBio</h1>
+                </div>
+
+                <div class="block bubbles" id="bubbles">
+                    <h2 class="title">Space</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active">Space Bubbles</h3>
+                            <h3>Black "light" matter</h3>
+                        </div>
+                        <div class="content">
+                            <h4>A revolution in space exploration and a new opportunity for alternative energy for the
+                                needs of mankind.</h4>
+                            <h5>Relevance and value of the product Space bubbles.</h5>
+                            <p>Having studied a number of scientific papers, as well as having conducted a series of our
+                                own experiments, our team came to the conclusion that at this stage of
+                                development,science remains at the same place in many areas of astronautics and
+                                astrophysics...</p><button class="btn"><a href="a/space_bubbles.html">view more
+                                    &#8594;</a></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="block news" id="news">
+                    <h2 class="title">News</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active">Main news</h3>
+                        </div>
+                        <div class="content news-content" style="margin-bottom: 20px">
+                            <div class="news-content-img"><img src="./src/img/news/1.jpg"></div>
+                            <div class="news-content-text">
+                                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorem?</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores illum
+                                    necessitatibus delectus praesentium, magni quasi quos esse quaerat, numquam optio,
+                                    cupiditate aut consequatur quisquam ipsa? Vitae pariatur repellat accusantium
+                                    officiis? In obcaecati cupiditate excepturi magni saepe, dignissimos fugit
+                                    temporibus....</p>
+                                <button class="btn"><a href="a/main_news.html">view more &#8594;</a></button>
+                            </div>
+
+                        </div>
+
+                        <div class="content news-content-slider">
+                            <div class="news-content-slider-container">
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/2.jpg" /></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, mollitia!</p>
+                                </div>
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/3.jpg" /></div>
+                                </div>
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/4.jpg" /></div>
+                                </div>
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/5.jpg" /></div>
+                                </div>
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/7.jpg" /></div>
+                                </div>
+                                <div class="card-item">
+                                    <div class="ncsc-item"><img src="./src/img/news/6.jpg" /></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="block medicine" id="medicine">
+                    <h2 class="title">Medicine</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active">Regenertion of body to a yuotful state</h3>
+                            <h3>Artificial vision</h3>
+                            <h3>Meditation in a Virtual 3D Space</h3>
+                            <h3>3D Bioprinting</h3>
+                            <h3>Revolution in 3D Modeling</h3>
+                        </div>
+                        <div class="content">
+                            <h4>Regenertion of body to a yuotful state</h4>
+                            <p>Human life consists of seven stages in the cycle of development: childhood up to 12
+                                years, adolescence up to 24, youth up to 36, maturity up to 42, preparation for old age
+                                up to 64, old age up to 84, and deep old age. In total, there are 7 cycles, each lasting
+                                12 years, with variations...</p><button class="btn"><a
+                                    href="a/regenertion_of_body.html">view more &#8594;</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block ecology" id="ecology">
+                    <h2 class="title">Ecology</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active">Сleaning the seas and oceans from oil and garbage</h3>
+                            <h3>Artificial lung of the Earth</h3>
+                            <h3>Sails in Wind Energy:</h3>
+                        </div>
+                        <div class="content">
+                            <h5>Our idea for cleaning the surface of the seas from oil pollution could have been
+                                implemented as early as 2011 when we entered the top 10 with our project 'Artificial
+                                Tornado.'</h5>
+                            <p>The disaster that occurred in April 2010 on the Deepwater Horizon oil platform turned out
+                                to be the largest environmental catastrophe in the history of the United States. The oil
+                                leak was only stopped by August 4. As a result of the....</p><button class="btn"><a
+                                    href="a/cleaning_seas_oceans.html">view more &#8594;</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block mirror" id="mirror">
+                    <h2 class="title">Informacion Technology</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active">3d mirror World</h3>
+                        </div>
+                        <div class="content">
+                            <h4>Introduction:</h4>
+                            <p>The book is dedicated to the creation of a three-dimensional mirrored world in virtual
+                                reality. It compiles ideas related to the implementation and inception of new...</p>
+                            <button class="btn"><a href="a/3d_mirror_world.html">view more &#8594;</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="block help" id="help">
+                    <h2 class="title">Сooperation, investments.</h2>
+                    <div class="chapter">
+                        <div class="bookmark">
+                            <h3 class="active project-help">Space Bubbles your contribution.</h3>
+                        </div>
+                        <div class="content">
+                            <h4>Dear friends and partners of the Space Bubbles project,</h4>
+                            <p>We are reaching out to you with an important request for support of our innovative
+                                project, Space Bubbles, aimed at revolutionizing space technology. Our goal is to create
+                                ...</p><button class="btn"><a href="a/project-help.html">view more &#8594;</a></button>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+            </section>
         </div>
 
-    </header>
 
-    <div class="wrapper start-page">
-
-        <section class="main">
-            <div class="main-title">
-                <h1>XttopBio</h1>
+        <footer>
+            <div class="contakt">
+                <div class="linkedin"><a
+                        href="https://www.linkedin.com/company/98650535/admin/feed/posts/?feedType=following"
+                        target="_blank">in</a></div>
+                <div class="facebook"><a href="https://www.facebook.com/XTTOPB/" target="_blank">f</a></div>
+                <div class="meil"><a href="mailto:xttopbiospace@gmail.com" target="_blank">mail</a></div>
             </div>
-
-            <div class="block bubbles" id="bubbles">
-                <h2 class="title">Space</h2>
-                <div class="chapter">
-                    <div class="bookmark">
-                        <h3 class="active">Space Bubbles</h3>
-                        <h3>Black "light" matter</h3>
-                    </div>
-                    <div class="content">
-                        <h4>A revolution in space exploration and a new opportunity for alternative energy for the needs
-                            of
-                            mankind.</h4>
-                        <h5>Relevance and value of the product Space bubbles.</h5>
-                        <p>Having studied a number of scientific papers, as well as having conducted a series of our own
-                            experiments, our team came to the conclusion that at this stage of development,science
-                            remains
-                            at the same place in many areas of astronautics and astrophysics...</p>
-                        <button class="btn"><a href="a/space_bubbles.html">view more &#8594;</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block medicine" id="medicine">
-                <h2 class="title">Medicine</h2>
-                <div class="chapter">
-                    <div class="bookmark">
-                        <h3 class="active">Regenertion of body to a yuotful state</h3>
-                        <h3>Artificial vision</h3>
-                        <h3>Meditation in a Virtual 3D Space</h3>
-                        <h3>3D Bioprinting</h3>
-                        <h3>Revolution in 3D Modeling</h3>
-                    </div>
-                    <div class="content">
-                        <h4>Regenertion of body to a yuotful state</h4>
-                        <p>Human life consists of seven stages in the cycle of development: childhood up to 12
-                            years, adolescence up to 24, youth up to 36, maturity up to 42, preparation for old age up
-                            to 64, old age
-                            up to 84, and deep old age. In total, there are 7 cycles, each lasting 12 years, with
-                            variations...</p>
-                        <button class="btn"><a href="a/regenertion_of_body.html">view more
-                                &#8594;</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block ecology" id="ecology">
-                <h2 class="title">Ecology</h2>
-                <div class="chapter">
-                    <div class="bookmark">
-                        <h3 class="active">Сleaning the seas and oceans from oil and garbage</h3>
-                        <h3>Artificial lung of the Earth</h3>
-                        <h3>Sails in Wind Energy:</h3>
-                    </div>
-                    <div class="content">
-                        <h5>Our idea for cleaning the surface of the seas from oil pollution could have been implemented
-                            as
-                            early as 2011 when we entered the top 10 with our project 'Artificial Tornado.'</h5>
-                        <p>The disaster that occurred in April 2010 on the Deepwater Horizon oil platform turned
-                            out to be the largest environmental catastrophe in the history of the United States. The oil
-                            leak
-                            was only stopped by August 4. As a result of the....</p>
-                        <button class="btn"><a href="a/cleaning_seas_oceans.html">view more &#8594;</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block mirror" id="mirror">
-                <h2 class="title">Informacion Technology</h2>
-
-                <div class="chapter">
-                    <div class="bookmark">
-                        <h3 class="active">3d mirror World</h3>
-                    </div>
-                    <div class="content">
-                        <h4>Introduction:</h4>                        
-                        <p>The book is dedicated to the creation of a three-dimensional mirrored world in virtual reality. It compiles ideas related to the implementation and inception of new...</p>
-                        <button class="btn"><a href="a/3d_mirror_world.html">view more &#8594;</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block help" id="help">
-                <h2 class="title">Project help</h2>
-                <div class="chapter">
-                    <div class="bookmark">
-                        <h3 class="active project-help">Space Bubbles your contribution.</h3>
-                    </div>
-                    <div class="content">
-                        <h4>Dear friends and partners of the Space Bubbles project,</h4>
-                        <p>We are reaching out to you with an important request for support of our innovative project,
-                            Space Bubbles, aimed at revolutionizing space technology. Our goal is to create ...</p>
-                        <button class="btn"><a href="a/project-help.html">view more &#8594;</a></button>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-
-    <footer>
-        <div class="contakt">
-            <div class="linkedin"><a href="https://www.linkedin.com/company/98650535/admin/feed/posts/?feedType=following" target="_blank">in</a></div>
-            <div class="facebook"><a href="https://www.facebook.com/XTTOPB/" target="_blank">f</a></div>
-            <div class="meil"><a href="mailto:xttopbiospace@gmail.com" target="_blank">mail</a></div>
-        </div>
-        <div class="autchor"> &#169; Mikolaj Yurtsevich</div>
-    </footer>
+            <div class="autchor"> &#169; Mikolaj Yurtsevich</div>
+        </footer>
 
 
 
 
-    <script src="src/scripts/data.js"></script>
-    <script src="src/scripts/script.js"></script>
-    <script src="src/scripts/header.js"></script>
+        <script src="src/scripts/data.js"></script>
+        <script src="src/scripts/script.js"></script>
+        <script src="src/scripts/header.js"></script>
 
 
-</body>
+        <script>
+            const cards = document.querySelectorAll('.card-item');
+
+            for (let i = 0; i < cards.length; i++) {
+                const card = cards[i];
+                cards[i].addEventListener('mousemove', startRotate);
+                cards[i].addEventListener('mouseout', stopRotate);
+            }
+
+
+            function startRotate(event) {
+                const cardItem =
+                    this.querySelector('.ncsc-item');
+                const halfHeight = cardItem.offsetHeight / 2;
+                const halfWidth = cardItem.offsetWidth / 2;
+                if (!cardItem.classList.contains('mirror')) {
+                    cardItem.style.transform = 'rotateX(' + -(event.offsetY - halfHeight) / 10 + 'deg)rotateY(' + (event
+                        .offsetX - halfWidth) / 10 + 'deg)';
+                    cardItem.style.opacity = 1;
+                    cardItem.style.borderTop = "2px solid #e1e1e1cc";
+                    cardItem.style.borderLeft = "2px solid #e1e1e1cc";
+                }
+            }
+
+            function stopRotate() {
+                const cardItem =
+                    this.querySelector('.ncsc-item');
+                cardItem.style.transform = 'rotate(0)';
+                cardItem.style.opacity = .8;
+                cardItem.style.borderTop = "0";
+                cardItem.style.borderLeft = "0";
+            }
+
+            function chessBoard(rows, columns) {
+                const array = Array.from({
+                    length: columns
+                }, (e, i) => i % 2 == 0 ? e = '0' : e = 'X');
+                return array;
+            }
+
+            chessBoard(6, 4);
+        </script>
+
+
+    </body>
 
 </html>
